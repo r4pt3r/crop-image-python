@@ -23,7 +23,7 @@ for x in files:
     im1 = im.crop((left, top, right, bottom)) 
      
     # saves
-    im1 = im1.save(x)
+    im1 = im1.save("./cropped/"+x)
     print("Cropped image "+x)
 
 print("Cropping completed")
